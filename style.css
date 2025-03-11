@@ -13,11 +13,6 @@ body {
     background-color: white;
 }
 
-.outer {}
-
-.react2 {}
-
-.react {}
 
 .contain {
     display: flex;
@@ -28,7 +23,7 @@ body {
 .contain1 {
     text-align: center;
     border-radius: 20px;
-    background-image: linear-gradient( #6246ea,#3a28b0);
+    background-image: linear-gradient(#6246ea, #3a28b0);
     padding-left: 40px;
     padding-right: 40px;
 
@@ -39,7 +34,7 @@ body {
     margin-bottom: 20px;
 }
 
-.contain3 {}
+
 
 .divider {
     padding-right: 30px;
@@ -65,7 +60,7 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
     padding-left: 10px;
-    
+
 }
 
 .item3 {
@@ -119,7 +114,7 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 80%;
-    background-image: linear-gradient( #6246ea,#3a28b0);
+    background-image: linear-gradient(#6246ea, #3a28b0);
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -182,22 +177,13 @@ body {
     color: darkgreen;
 }
 
-.vis2 { 
+.vis2 {
     color: darkblue;
 }
 
 .mem2 {
     color: #f4b400;
 }
-
-
-
-
-
-
-
-
-
 
 .span1 {
     padding-left: 65px;
@@ -219,27 +205,65 @@ body {
 
 
 
+/*large media*/
+@media(max-width:756px) {
+    .contain1 {
+        width: 200px;
 
+    }
 
-
-
-
-
-
+    .innercard {
+        width: 100%;
+    }
+}
 
 /*large media*/
-@media(max-width:756px){
-    .contain1{
-        width: 200px;  
+@media(max-width:600px) {
+    .contain {
+        display: initial;
 
     }
-    .innercard{
-        width:100%;
-    }
+
+    .item1 {
+        margin-left: 20px;
+        display: flex;
+
     }
 
-    /*large media*/
-@media(max-width:600px){
+    .item2 {
+        margin-left: 20px;
+        display: flex;
+    }
+
+    .item3 {
+        margin-left: 20px;
+        display: flex;
+    }
+
+    .item4 {
+        margin-left: 20px;
+        display: flex;
+    }
+
+    .item5 {
+        margin-left: 20px;
+        display: flex;
+    }
+
+
+    h2 {
+        padding-left: 25px;
+    }
+
+    .contain1 {
+        width: 220px;
+    }
+
+    .text1 {
+        padding-top: 30px;
+    }
+
+
 
 
 
